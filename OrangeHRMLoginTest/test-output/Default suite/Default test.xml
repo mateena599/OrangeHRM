@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-5A78VGD" name="com.OHRM.OrangeHRMLoginTest.OHRM_LoginTest" tests="1" failures="0" timestamp="15 Nov 2019 04:51:02 GMT" time="20.173" errors="0">
+  <testcase name="LogIn" time="4.383" classname="com.OHRM.OrangeHRMLoginTest.OHRM_LoginTest"/>
+</testsuite>

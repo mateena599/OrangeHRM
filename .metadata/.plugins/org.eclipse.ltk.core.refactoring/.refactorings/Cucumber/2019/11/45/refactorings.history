@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 10 elements from project &apos;Cucumber&apos;&#x0D;&#x0A;- Original project: &apos;Cucumber&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     DriverFiles&#x0D;&#x0A;     cobertura-2.1.1.jar&#x0D;&#x0A;     cucumber-core-1.1.2.jar&#x0D;&#x0A;     cucumber-java-1.1.2.jar&#x0D;&#x0A;     cucumber-junit-1.1.2.jar&#x0D;&#x0A;     cucumber-jvm-deps-1.0.3.jar&#x0D;&#x0A;     cucumber-reporting-0.1.0.jar&#x0D;&#x0A;     gherkin-2.12.1.jar&#x0D;&#x0A;     junit-4.11.jar&#x0D;&#x0A;     mockito-all-2.0.2-beta.jar" description="Delete elements" element1="DriverFiles" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1573322420172" subPackages="false" version="1.0"/>
+</session>

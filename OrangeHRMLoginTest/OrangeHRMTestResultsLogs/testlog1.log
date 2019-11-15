@@ -1,0 +1,9 @@
+[main] INFO OHRM_LoginTest - Chrome Browser Succesfully opened
+[main] INFO OHRM_LoginTest - OrangeHRM application Opened Successfully
+[main] INFO OHRM_LoginTest - UserName Entered successfully
+[main] INFO OHRM_LoginTest - Password Entered successfully
+[main] INFO OHRM_LoginTest - Click Operation on LogIn Button successfully
+[main] INFO OHRM_LoginTest - The expected Text is: Welcome Admin
+[main] INFO OHRM_LoginTest - The Actual Text is: Welcome Admin
+[main] INFO OHRM_LoginTest - Login successfull-PASS
+[main] INFO OHRM_LoginTest - Application closed successfully

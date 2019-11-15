@@ -1,0 +1,9 @@
+2019-11-15 10:20:49,018 - OHRM_LoginTest -INFO - Chrome Browser Succesfully opened
+2019-11-15 10:20:52,135 - OHRM_LoginTest -INFO - OrangeHRM application Opened Successfully
+2019-11-15 10:20:56,487 - OHRM_LoginTest -INFO - UserName Entered successfully
+2019-11-15 10:20:56,607 - OHRM_LoginTest -INFO - Password Entered successfully
+2019-11-15 10:21:00,650 - OHRM_LoginTest -INFO - Click Operation on LogIn Button successfully
+2019-11-15 10:21:00,650 - OHRM_LoginTest -INFO - The expected Text is: Welcome Admin
+2019-11-15 10:21:00,710 - OHRM_LoginTest -INFO - The Actual Text is: Welcome Admin
+2019-11-15 10:21:00,714 - OHRM_LoginTest -INFO - Login successfull-PASS
+2019-11-15 10:21:01,935 - OHRM_LoginTest -INFO - Application closed successfully

@@ -1,0 +1,16 @@
+<suite name="NewTours" parallel="tests">
+<test name="Login Test">
+<classes>
+ <class name="com.NewtourExcel.NewtoursLogin"/>
+</classes>
+</test>
+
+<test name="New UserResgistration">
+<classes>
+<class name="com.UserRegistrationExcel.UserRegistrationNewtours"/>
+</classes>
+
+</test>
+
+
+</suite>

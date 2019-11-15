@@ -1,0 +1,35 @@
+package com.BasicJava;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListExample {
+
+	public static void main(String []args)
+	{
+		List <Object> array1=new ArrayList<>();
+		array1.add("Selenuium");
+		array1.add("LoadRuner");
+		array1.add(10);
+		array1.add('p');
+		array1.add(102.25);
+		array1.add(102.25);
+
+	/*	for(int i=0;i<array1.size();i++)
+		{
+			
+			
+			System.out.println(array1.get(i));
+			
+		
+		}*/
+		
+		
+		/*for(Object var:array1)
+		{
+			System.out.println(var);
+		}*/
+		
+	}
+
+}

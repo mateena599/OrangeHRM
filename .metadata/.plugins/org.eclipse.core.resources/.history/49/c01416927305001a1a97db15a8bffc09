@@ -1,0 +1,46 @@
+package com.GRID;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class NewTourslogInTest 
+{
+  @Parameters("Browser")
+  @Test
+  public void logInTest(String browser) throws MalformedURLException
+  {
+	  System.out.println("The Browser name is :"+browser);
+//Information about the NODES created and registered with the HUB
+//Desiredcapabilities- It is used to specify which browser and the platform
+//that need to be considered for the Test Run	
+	DesiredCapabilities cap=null;
+	if(browser.equalsIgnoreCase("chrome"))
+	{
+		cap=DesiredCapabilities.chrome();
+		cap.setBrowserName("chrome");
+		cap.setPlatform(Platform.WINDOWS);
+	}
+	else
+		if(browser.equalsIgnoreCase("firefox"))
+		{
+			cap=DesiredCapabilities.firefox();
+			cap.setBrowserName("firefox");
+			cap.setPlatform(Platform.WINDOWS);
+		}
+	
+	//remoteWebDriver-It connect to Hub server and check for the 
+	//registered NODES to execute the Webdriver automation testScript
+	//for cross browser and cross platform testing
+	
+	RemoteWebDriver driver=new RemoteWebDriver(new URL("http://192.168.0.101:4444/wd/hub"), cap);
+	String url="http://newtours.demoaut.com";
+	driver.get(url);
+  }
+  
+}

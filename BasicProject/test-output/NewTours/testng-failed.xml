@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewTours]" parallel="tests">
+  <test thread-count="5" name="Login Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.NewtourExcel.NewtoursLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.NewtourExcel.NewtoursLogin -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="New UserResgistration(failed)" parallel="tests">
+    <classes>
+      <class name="com.UserRegistrationExcel.UserRegistrationNewtours">
+        <methods>
+          <include name="newUserRegistration"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.UserRegistrationExcel.UserRegistrationNewtours -->
+    </classes>
+  </test> <!-- New UserResgistration(failed) -->
+</suite> <!-- Failed suite [NewTours] -->

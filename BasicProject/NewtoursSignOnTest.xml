@@ -1,0 +1,9 @@
+<suite name="NewToursApplication">
+
+<test name="Login Test">
+<classes>
+ <class name="com.POM.signOnTest"/>
+</classes>
+</test>
+
+</suite>

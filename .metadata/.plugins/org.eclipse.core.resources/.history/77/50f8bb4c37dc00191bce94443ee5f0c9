@@ -1,0 +1,27 @@
+package com.BasicJava;
+
+public class StringCompareExample {
+
+	public static void main(String[] args)
+	{
+		String string1="LiveTech";
+		
+		String string2="LiveTech ";
+		System.out.println("Comparing of Strings Example:");
+		
+		System.out.println("------------------------------");
+
+		System.out.println("");
+		if(string1.equals(string2))
+		{
+			System.out.println("The string1 is equal to string2");
+		}
+		else
+		{
+			System.out.println("The string1 is not equal to string2");
+
+		}
+
+	}
+
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NewTours Application" parallel="tests">
+	<test name="on chrome">
+	<parameter name="Browser" value="chrome"/>
+	<classes>
+	<class name="com.GRID.NewTourslogInTest"/>
+	</classes>
+        </test>
+
+         <test name="on firefox">
+	<parameter name="Browser" value="firefox"/>
+	<classes>
+	<class name="com.GRID.NewTourslogInTest"/>
+	</classes>
+        </test>
+</suite>

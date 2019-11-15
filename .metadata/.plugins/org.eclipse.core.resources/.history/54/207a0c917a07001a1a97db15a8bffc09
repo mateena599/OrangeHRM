@@ -1,0 +1,22 @@
+package com.OHRM.OrangeHRMLoginTest;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+
+public class OrangeHrmImportImageAutoIt 
+{
+Logger log=Logger.getLogger("OrangeHrmImportImageAutoIt");
+WebDriver driver=null;
+String url="https://opensource-demo.orangehrmlive.com/index.php/dashboard";
+
+@BeforeTest
+public void SetUp()
+{
+	PropertyConfigurator.configure("Log4j.properties");
+	System.setProperty("webdriver.chrome.driver", "./driverfiles/chromedriver.exe");
+	
+}
+
+}
